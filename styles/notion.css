@@ -11,7 +11,7 @@
   --notion-max-width: 720px;
   --notion-header-height: 54px;
 
-  --bg-color: #14171d;
+  --bg-color: #181a1d;
   --bg-color-0: rgba(129, 121, 141, 0.185);
   --bg-color-1: rgb(247, 246, 243);
   --bg-color-2: rgba(115, 112, 122, 0.13);
@@ -61,6 +61,7 @@
   grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
   grid-gap: 6vmin;
   gap: 6vmin;
+  border: transparent;
 }
 
 .notion-gallery-grid .notion-page-icon-inline {
