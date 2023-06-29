@@ -19,7 +19,6 @@ import { getCanonicalPageUrl, mapPageUrl } from '@/lib/map-page-url'
 import { searchNotion } from '@/lib/search-notion'
 
 import { Footer } from './Footer'
-import { GitHubShareButton } from './GitHubShareButton'
 import { Loading } from './Loading'
 import { NotionPageHeader } from './NotionPageHeader'
 import { Page404 } from './Page404'
@@ -280,8 +279,6 @@ export const NotionPage: React.FC<types.PageProps> = ({
         pageAside={pageAside}
         footer={footer}
       />
-
-      <GitHubShareButton />
     </>
   )
 }
